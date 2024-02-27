@@ -1,0 +1,6 @@
+[tool.pytest.ini_options]
+minversion = "7.4"
+testpaths = ["src/tests"]
+python_files = ["*_test.py", "test_*.py"]
+python_classes = ["test_", "_test", "Test*"]
+python_functions = ["test_", "_test"]
